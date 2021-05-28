@@ -55,11 +55,11 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+.venv
 
 # next.js build output
 .next
-
+.vscode
 # model files
 public/model/model.json
 public/model/*shard*

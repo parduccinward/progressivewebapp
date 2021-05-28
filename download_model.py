@@ -1,5 +1,5 @@
 from keras import applications
+from keras.applications import mobilenet
 
-
-model = applications.mobilenet.MobileNet()
+model = mobilenet.MobileNet()
 model.save('./mobilenet-model.h5')
